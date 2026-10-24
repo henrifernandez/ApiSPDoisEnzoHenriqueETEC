@@ -1,0 +1,17 @@
+# Artefatos de build
+bin/
+obj/
+
+# Arquivos de usuário e de editor (Visual Studio, Rider, VS Code)
+*.user
+*.suo
+.vs/
+.idea/
+.vscode/
+
+# Atalhos do Windows
+*.lnk
+
+# Configuração local com segredos
+appsettings.*.local.json
+.env
