@@ -20,7 +20,8 @@ Requisitos: .NET 8 SDK e SQL Server LocalDB.
 
 ```bash
 dotnet restore
-dotnet ef database update   # cria o banco local
+dotnet ef migrations add Inicial   # o repositório ainda não traz migrações
+dotnet ef database update          # cria o banco local
 dotnet run
 ```
 
